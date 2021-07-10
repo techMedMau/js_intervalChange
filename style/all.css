@@ -1,0 +1,50 @@
+.container {
+  max-width: 772px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: #ddd;
+  font-family: Arial, Helvetica, "LiHei Pro", "Microsoft JhengHei", "MingLiU", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #666;
+  text-shadow: 2px 2px #fff;
+}
+
+.img_outer {
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.img_inner {
+  width: 100%;
+  height: 100%;
+}
+
+.img_resp {
+  display: block;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+.btns .btn {
+  color: #ccc;
+  border: none;
+  background-color: #555;
+  width: 49%;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 3px;
+}
+.btns .btn span {
+  font-weight: 900;
+}
